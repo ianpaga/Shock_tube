@@ -1,8 +1,9 @@
 Smoothed Particle Hydrodynamics solution to the Navier-Stokes equation: The shock tube 
 ====
 
-Description: This code solves the Navier-Stokes equations under approximation of Smoothed Particle Hydrodynamics, or SPH, for short. For details on how the SPH approximation works,
-we refer the reader to the pioneering article of [J. Monaghan (1992)](https://ui.adsabs.harvard.edu/abs/1992ARA%26A..30..543M/abstract). 
+Description: This code solves the Navier-Stokes equations under the approximation of Smoothed Particle Hydrodynamics (SPH) using a RK4 solver. 
+For details on how the SPH approximation works, we refer the reader to the pioneering article 
+of [J. Monaghan (1992)](https://ui.adsabs.harvard.edu/abs/1992ARA%26A..30..543M/abstract). 
 
 SPH is a Lagrangian scheme that is based on particle interpolation to compute smooth field variables. 
 Such particles act as control masses and carry all physical properties of the system to be simulated. 
